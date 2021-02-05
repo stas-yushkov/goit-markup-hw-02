@@ -179,7 +179,6 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  
   /* 1 */
   text-transform: none;
 }
@@ -285,4 +284,14 @@ Add the correct display in Chrome and Safari.
 
 summary {
   display: list-item;
+}
+
+/* Remove markers from lists */
+ul {
+  list-style: none;
+}
+
+/* Remove underline from urls */
+a {
+  text-decoration: none;
 }

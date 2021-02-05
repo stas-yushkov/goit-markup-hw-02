@@ -55,18 +55,6 @@ header .logo-part {
   color: var(--black-color);
 }
 
-footer .logo-part {
-  color: var(--white-color);
-} /* end of Logo styles */
-
-footer {
-  background-color: var(--primary-background-color);
-}
-
-footer .address-item {
-  color: var(--address-primary-color);
-}
-
 .nav-link {
   color: var(--secondary-color);
 }
@@ -103,4 +91,45 @@ footer .address-item {
   font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--secondary-color);
+}
+
+.command {
+  background-color: var(--secondary-background-color);
+}
+
+.card {
+  background-color: var(--white-color);
+  width: 270px;
+}
+
+.card-title {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.card-item {
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* end of main section */
+
+footer .logo-part {
+  color: var(--white-color);
+} /* end of Logo styles */
+
+footer {
+  background-color: var(--primary-background-color);
+}
+
+footer .address-item {
+  color: var(--address-primary-color);
 }

@@ -1,3 +1,4 @@
+/* Transform any text to uppercase */
 .uppercase {
   text-transform: uppercase;
 }
@@ -9,8 +10,40 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   background-color: var(--white-color);
+  color: var(--primary-color);
 }
 
+.hero {
+  background-color: var(--primary-background-color);
+  color: var(--white-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  font-weight: 700;
+  color: currentColor;
+  font-size: 16px;
+  line-height: 1.87; /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-background-color);
+}
+
+footer {
+  background-color: var(--primary-background-color);
+}
+
+/* Logo styles */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -26,11 +59,7 @@ header .logo-part {
 
 footer .logo-part {
   color: var(--white-color);
-}
-
-footer {
-  background-color: var(--footer-background-color);
-}
+} /* end of Logo styles */
 
 footer .address-item {
   color: var(--address-primary-color);

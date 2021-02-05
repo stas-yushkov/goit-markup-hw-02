@@ -1,10 +1,12 @@
-color: #2196f3;
-color: #212121;
-color: #757575; основной
-color: #FFFFFF;
-color: #ECECEC;
-
-
+:root{
+  --accent-color: #2196f3;
+  --secondary-color: #212121;
+  --primary-color: #757575;
+  --white-color: #FFFFFF;
+  --border-color: #ECECEC;
+  --address-primary-color: rgba(255, 255, 255, 0.6);
+  --button-background-color: #F5F4FA;  
+}
 
 Font 
 Raleway

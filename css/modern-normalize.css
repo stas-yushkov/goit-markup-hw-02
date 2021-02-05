@@ -179,8 +179,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  /* 1 */
-  text-transform: none;
+  text-transform: none; /* 1 */
 }
 
 /**

@@ -2,7 +2,62 @@
   text-transform: uppercase;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+header .logo-part {
+  color: var(--black-color);
+}
+
+footer .logo-part {
+  color: var(--white-color);
+}
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+footer .address-item {
+  color: var(--address-primary-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
 .current-page {
-  color: wheat;
-  background-color: blueviolet;
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.address-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: var(--accent-color);
 }

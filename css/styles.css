@@ -3,6 +3,7 @@
   text-transform: uppercase;
 }
 
+/* Common styles */
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -11,8 +12,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--primary-color);
-}
+} /* end of Common styles */
 
+/* Hero section */
 .hero {
   background-color: var(--primary-background-color);
   color: var(--white-color);
@@ -29,7 +31,7 @@ body {
   font-weight: 700;
   color: currentColor;
   font-size: 16px;
-  line-height: 1.87; /* identical to box height, or 187% */
+  line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
 }
@@ -37,11 +39,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--hover-background-color);
-}
-
-footer {
-  background-color: var(--primary-background-color);
-}
+} /* end of Hero section */
 
 /* Logo styles */
 .logo {
@@ -61,6 +59,10 @@ footer .logo-part {
   color: var(--white-color);
 } /* end of Logo styles */
 
+footer {
+  background-color: var(--primary-background-color);
+}
+
 footer .address-item {
   color: var(--address-primary-color);
 }
@@ -69,13 +71,18 @@ footer .address-item {
   color: var(--secondary-color);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 .current-page {
   color: var(--accent-color);
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--accent-color);
+.current-page:hover,
+.current-page:focus {
+  color: var(--hover-background-color);
 }
 
 .address-item {
@@ -89,4 +96,11 @@ footer .address-item {
 .address-item:hover,
 .address-item:focus {
   color: var(--accent-color);
+}
+
+/* TODO: WTF with font weight&! https://fecore33online.slack.com/archives/C01D1B8LP7X/p1612562450385700 */
+.values-title {
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--secondary-color);
 }

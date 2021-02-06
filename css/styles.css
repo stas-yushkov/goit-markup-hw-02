@@ -27,17 +27,34 @@ body {
   letter-spacing: 0.06em;
 }
 
-.hero-button {
+.hero .button {
   font-weight: 700;
   color: currentColor;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
+  border: none;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.button {
+  font-weight: 500;
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--secondary-background-color);
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.hero .button:hover,
+.hero .button:focus {
   background-color: var(--hover-background-color);
 } /* end of Hero section */
 
@@ -46,8 +63,8 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  /* letter-spacing: 0.03em; */
   color: var(--accent-color);
 }
 
@@ -57,6 +74,9 @@ header .logo-part {
 
 .nav-link {
   color: var(--secondary-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -73,7 +93,6 @@ header .logo-part {
   color: var(--hover-background-color);
 }
 
-/* TODO: WTF with font weight&! https://fecore33online.slack.com/archives/C01D1B8LP7X/p1612562450385700 */
 .values-title {
   font-size: 14px;
   line-height: 1.14;
@@ -95,14 +114,34 @@ header .logo-part {
   width: 270px;
 }
 
-/* TODO: Solve problem wth hover-focus */
+.portfolio-item {
+  background-color: var(--white-color);
+  width: 370px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 2;
+  color: var(--secondary-color);
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.command-link {
+  display: block;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .command-link:hover,
 .command-link:focus {
-  box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.12),
-    0px 1px 10px rgba(0, 0, 0, 0.411), 0px 20px 10px rgba(41, 209, 8, 0.774);
-  display: block;
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 1px 3px rgba(33, 150, 243, 0.12),
+    0px 1px 1px rgba(33, 150, 243, 0.14), 0px 2px 1px rgba(33, 150, 243, 0.2);
 }
 
 .card-title {
@@ -128,6 +167,9 @@ footer {
 
 footer .address-item {
   color: var(--address-primary-color);
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-item.map {

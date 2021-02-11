@@ -64,6 +64,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
   /* letter-spacing: 0.03em; */
   color: var(--accent-color);
 }
@@ -187,4 +188,9 @@ footer .address-item {
 .address-item:hover,
 .address-item:focus {
   color: var(--accent-color);
+}
+
+/* TODO: actual width */
+.container {
+  width: 1200px;
 }
